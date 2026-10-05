@@ -380,8 +380,10 @@ def main():
         lines.append("- Per-request TTFT median: %s ms" % (fmt(c_ttft, 1) if c_ttft else "n/a"))
         lines.append("- Per-request decode median: %s tok/s" % (fmt(c_dec, 1) if c_dec else "n/a"))
 
+    # Relative to the repo root so summaries don't embed local absolute paths.
+    repo_dir = os.path.dirname(os.path.abspath(__file__))
     lines.append("")
-    lines.append("Raw per-run data: `%s`" % args.out)
+    lines.append("Raw per-run data: `%s`" % os.path.relpath(args.out, repo_dir))
 
     summary = "\n".join(lines)
     print("\n" + summary, flush=True)
