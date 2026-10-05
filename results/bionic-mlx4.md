@@ -22,4 +22,4 @@
 - Per-request TTFT median: 2531.6 ms
 - Per-request decode median: 6.8 tok/s
 
-Raw per-run data: `/Users/acrobat/.lmstudio/apps/bionic/projects/d49037d8-47f4-5808-9028-c707de117f8f/workspace/splash-vs-mlx-bench/results/bionic-mlx4.jsonl`
+Raw per-run data: `results/bionic-mlx4.jsonl`
