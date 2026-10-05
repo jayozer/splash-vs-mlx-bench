@@ -1,0 +1,4 @@
+{"ttft_s": 0.6239990000000013, "total_time_s": 12.35347025, "output_tokens": 297, "prompt_tokens": null, "decode_tps": 25.235623514123446, "itl_median_ms": 37.41352049999769, "itl_p95_ms": 113.49551024999815, "text_head": "", "scenario": "short", "run": 1, "engine": "MLX-4bit"}
+{"ttft_s": 5.883952833999999, "total_time_s": 17.732587334, "output_tokens": 294, "prompt_tokens": null, "decode_tps": 24.728637577920495, "itl_median_ms": 37.40633299999985, "itl_p95_ms": 118.17075039999735, "text_head": "", "scenario": "medium", "run": 1, "engine": "MLX-4bit"}
+{"prefill_time_s": 85.76396370900002, "prompt_tokens": 19984, "scenario": "prefill_probe", "run": 1, "engine": "MLX-4bit"}
+{"ttft_s": 75.093381459, "total_time_s": 112.40652866699998, "output_tokens": 253, "prompt_tokens": null, "decode_tps": 6.753653606120556, "itl_median_ms": 54.89735399999063, "itl_p95_ms": 542.291066849998, "text_head": "", "scenario": "long", "run": 1, "engine": "MLX-4bit"}
