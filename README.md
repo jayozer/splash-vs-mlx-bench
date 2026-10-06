@@ -4,6 +4,8 @@
 processes a fresh long prompt at the same speed, and answers a repeated prompt
 about 4× sooner — but it serves one request at a time.**
 
+**Write-up:** [Splash vs MLX on Qwen3.8-27B: what actually wins on an M5 Max](https://x.com/OzerJay/article/2107554568552997148) (X Article).
+
 ![Generation speed by prompt length: MLX vs Splash](assets/generation-speed.png)
 
 ## Why I did this
