@@ -2,11 +2,11 @@
 
 | Metric | MLX-4bit | Splash-4bit |
 |---|---|---|
-| Decode short (tok/s) | 25.2 | 63.1 |
-| Decode medium ~4K (tok/s) | 24.7 | 49.9 |
-| Decode long ~32K (tok/s) | 6.8 | 51.1 |
-| TTFT short (ms) | 624.0 | 139.7 |
-| Cold TTFT ~32K (ms) | 75093.4 | 36769.1 |
-| Cached TTFT ~32K (ms) | n/a | n/a |
-| Prefill ~32K (ms) | 85764.0 | 36570.9 |
-| Concurrency 4x aggregate (tok/s) | n/a | n/a |
+| Decode short (tok/s) | 31.1 | 54.0 |
+| Decode medium ~4K (tok/s) | 29.2 | 45.9 |
+| Decode long ~32K (tok/s) | 22.4 | 53.6 |
+| TTFT short (ms) | 292.7 | 148.1 |
+| Cold TTFT ~32K (ms) | 36046.3 | 37667.8 |
+| Cached TTFT ~32K (ms) | 715.2 | 182.2 |
+| Prefill ~32K (ms) | 40177.9 | 40425.0 |
+| Concurrency 4x aggregate (tok/s) | 49.8 | 59.5 |
